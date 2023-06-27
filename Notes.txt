@@ -1,0 +1,12 @@
+Q) Why Use static imports in Rest_Assured? 
+Ans - For code readability. Otherwise we need to use RestAssured class to import the 
+methods like - RestAssured.given().when().then()
+
+Which hampers the code readability. 
+
+Q) Why Method Chaining in Rest Assured? 
+Ans - It's similar to cucumber BDD approach
+
+All the given(), when(), then() - return object of same class which implements Request Specification interface. Because of this we can chain them
+
+
